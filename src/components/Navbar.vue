@@ -2,7 +2,7 @@
   <nav class="navbar">
     <ul class="navbar__list">
       <li class="navbar__item">
-        <a class="navbar__link" href="#">{{ name }}</a>
+        <a :href="link" class="navbar__link">{{ name }}</a>
       </li>
     </ul>
   </nav>
@@ -12,6 +12,9 @@
 export default {
   props: {
     name: {
+      type: String,
+    },
+    link: {
       type: String,
     },
   },
