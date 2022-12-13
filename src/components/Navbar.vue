@@ -1,11 +1,9 @@
 <template>
-  <nav class="navbar">
-    <ul class="navbar__list">
-      <li class="navbar__item">
-        <a :href="link" class="navbar__link">{{ name }}</a>
-      </li>
-    </ul>
-  </nav>
+  <ul class="navbar__list">
+    <li class="navbar__item">
+      <a :href="link" class="navbar__link">{{ name }}</a>
+    </li>
+  </ul>
 </template>
 
 <script>
@@ -17,6 +15,9 @@ export default {
     link: {
       type: String,
     },
+  },
+  data() {
+    return {};
   },
 };
 </script>

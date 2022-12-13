@@ -1,12 +1,13 @@
 <template>
   <header class="header">
-    <navbar
-      class="navbar"
-      v-for="item in items"
-      :name="item.name"
-      :key="item.id"
-    ></navbar>
-    <!-- <navbar></navbar> -->
+    <nav class="navbar">
+      <navbar
+        v-for="item in items"
+        :name="item.name"
+        :key="item.id"
+        :link="item.link"
+      ></navbar>
+    </nav>
   </header>
 </template>
 
@@ -35,15 +36,10 @@ export default {
           name: "Company",
           link: "#",
         },
+      ],
+      resources: [
         {
-          id: "login",
-          name: "Login",
-          link: "#",
-        },
-        {
-          id: "language",
-          name: "En",
-          link: "#",
+          name1: "Newsroom",
         },
       ],
     };
@@ -75,7 +71,7 @@ body {
   color: #dad8dd;
   background-color: #18132c;
 }
-.header {
+.navbar {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
