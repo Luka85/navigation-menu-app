@@ -26,9 +26,11 @@ export default {
           name: "Company",
         },
         {
+          id: "login",
           name: "Login",
         },
         {
+          id: "language",
           name: "En",
         },
       ],

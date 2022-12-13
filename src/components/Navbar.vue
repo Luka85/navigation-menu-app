@@ -2,7 +2,7 @@
   <nav class="navbar">
     <ul class="navbar__list">
       <li class="navbar__item">
-        <a class="navbar__link" href="">{{ name }}</a>
+        <a class="navbar__link" href="#">{{ name }}</a>
       </li>
     </ul>
   </nav>
@@ -15,7 +15,6 @@ export default {
       type: String,
     },
   },
-  //   data() {},
 };
 </script>
 
