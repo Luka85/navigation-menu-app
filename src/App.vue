@@ -1,48 +1,15 @@
 <template>
-  <header class="header">
-    <nav class="navbar">
-      <navbar
-        v-for="item in items"
-        :name="item.name"
-        :key="item.id"
-        :link="item.link"
-      ></navbar>
-    </nav>
-  </header>
+  <Navbar></Navbar>
 </template>
 
 <script>
+import Navbar from "./components/Navbar.vue";
 export default {
+  components: {
+    Navbar,
+  },
   data() {
-    return {
-      items: [
-        {
-          id: "products",
-          name: "Products",
-          link: "#",
-        },
-        {
-          id: "resources",
-          name: "Resources",
-          link: "#",
-        },
-        {
-          id: "partners",
-          name: "Partners",
-          link: "#",
-        },
-        {
-          id: "company",
-          name: "Company",
-          link: "#",
-        },
-      ],
-      resources: [
-        {
-          name1: "Newsroom",
-        },
-      ],
-    };
+    return {};
   },
 };
 </script>
@@ -69,13 +36,17 @@ body {
   font-weight: 400;
   line-height: 1.6;
   color: #dad8dd;
-  background-color: #18132c;
+  /* background-color: #18132c; */
 }
-.navbar {
+.navbar__list {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
   padding: 2rem 0;
+}
+
+.navbar__link {
+  font-size: 3rem;
 }
 </style>
