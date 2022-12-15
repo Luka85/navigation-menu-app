@@ -1,5 +1,131 @@
 <template>
   <Navbar></Navbar>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic sunt magni,
+    eaque sint fugit maxime magnam praesentium perferendis in consectetur ipsam
+    deserunt, adipisci, excepturi iure molestiae possimus modi odio amet!
+  </p>
+  <p>
+    Enim veritatis ipsum soluta sed quo saepe non doloribus quisquam, corrupti
+    animi earum delectus culpa ducimus consectetur fuga accusamus itaque. Nam
+    quas beatae sint quos. Ex facere consequuntur culpa optio?
+  </p>
+  <p>
+    Voluptas repudiandae fuga dignissimos aperiam perferendis repellat quisquam
+    praesentium dolorum! Tenetur aut minus animi impedit perspiciatis maiores
+    ullam autem nesciunt magni incidunt! Dignissimos dolores necessitatibus
+    ipsam facilis natus magnam quae?
+  </p>
+  <p>
+    Suscipit vel nostrum recusandae dolore quisquam dolorum, officia ipsa error
+    quas modi, nihil ea velit, saepe necessitatibus ad! Id molestiae rerum
+    alias, minima labore ratione natus eaque earum corrupti ullam!
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic sunt magni,
+    eaque sint fugit maxime magnam praesentium perferendis in consectetur ipsam
+    deserunt, adipisci, excepturi iure molestiae possimus modi odio amet!
+  </p>
+  <p>
+    Enim veritatis ipsum soluta sed quo saepe non doloribus quisquam, corrupti
+    animi earum delectus culpa ducimus consectetur fuga accusamus itaque. Nam
+    quas beatae sint quos. Ex facere consequuntur culpa optio?
+  </p>
+  <p>
+    Voluptas repudiandae fuga dignissimos aperiam perferendis repellat quisquam
+    praesentium dolorum! Tenetur aut minus animi impedit perspiciatis maiores
+    ullam autem nesciunt magni incidunt! Dignissimos dolores necessitatibus
+    ipsam facilis natus magnam quae?
+  </p>
+  <p>
+    Suscipit vel nostrum recusandae dolore quisquam dolorum, officia ipsa error
+    quas modi, nihil ea velit, saepe necessitatibus ad! Id molestiae rerum
+    alias, minima labore ratione natus eaque earum corrupti ullam!
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic sunt magni,
+    eaque sint fugit maxime magnam praesentium perferendis in consectetur ipsam
+    deserunt, adipisci, excepturi iure molestiae possimus modi odio amet!
+  </p>
+  <p>
+    Enim veritatis ipsum soluta sed quo saepe non doloribus quisquam, corrupti
+    animi earum delectus culpa ducimus consectetur fuga accusamus itaque. Nam
+    quas beatae sint quos. Ex facere consequuntur culpa optio?
+  </p>
+  <p>
+    Voluptas repudiandae fuga dignissimos aperiam perferendis repellat quisquam
+    praesentium dolorum! Tenetur aut minus animi impedit perspiciatis maiores
+    ullam autem nesciunt magni incidunt! Dignissimos dolores necessitatibus
+    ipsam facilis natus magnam quae?
+  </p>
+  <p>
+    Suscipit vel nostrum recusandae dolore quisquam dolorum, officia ipsa error
+    quas modi, nihil ea velit, saepe necessitatibus ad! Id molestiae rerum
+    alias, minima labore ratione natus eaque earum corrupti ullam!
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic sunt magni,
+    eaque sint fugit maxime magnam praesentium perferendis in consectetur ipsam
+    deserunt, adipisci, excepturi iure molestiae possimus modi odio amet!
+  </p>
+  <p>
+    Enim veritatis ipsum soluta sed quo saepe non doloribus quisquam, corrupti
+    animi earum delectus culpa ducimus consectetur fuga accusamus itaque. Nam
+    quas beatae sint quos. Ex facere consequuntur culpa optio?
+  </p>
+  <p>
+    Voluptas repudiandae fuga dignissimos aperiam perferendis repellat quisquam
+    praesentium dolorum! Tenetur aut minus animi impedit perspiciatis maiores
+    ullam autem nesciunt magni incidunt! Dignissimos dolores necessitatibus
+    ipsam facilis natus magnam quae?
+  </p>
+  <p>
+    Suscipit vel nostrum recusandae dolore quisquam dolorum, officia ipsa error
+    quas modi, nihil ea velit, saepe necessitatibus ad! Id molestiae rerum
+    alias, minima labore ratione natus eaque earum corrupti ullam!
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic sunt magni,
+    eaque sint fugit maxime magnam praesentium perferendis in consectetur ipsam
+    deserunt, adipisci, excepturi iure molestiae possimus modi odio amet!
+  </p>
+  <p>
+    Enim veritatis ipsum soluta sed quo saepe non doloribus quisquam, corrupti
+    animi earum delectus culpa ducimus consectetur fuga accusamus itaque. Nam
+    quas beatae sint quos. Ex facere consequuntur culpa optio?
+  </p>
+  <p>
+    Voluptas repudiandae fuga dignissimos aperiam perferendis repellat quisquam
+    praesentium dolorum! Tenetur aut minus animi impedit perspiciatis maiores
+    ullam autem nesciunt magni incidunt! Dignissimos dolores necessitatibus
+    ipsam facilis natus magnam quae?
+  </p>
+  <p>
+    Suscipit vel nostrum recusandae dolore quisquam dolorum, officia ipsa error
+    quas modi, nihil ea velit, saepe necessitatibus ad! Id molestiae rerum
+    alias, minima labore ratione natus eaque earum corrupti ullam!
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic sunt magni,
+    eaque sint fugit maxime magnam praesentium perferendis in consectetur ipsam
+    deserunt, adipisci, excepturi iure molestiae possimus modi odio amet!
+  </p>
+  <p>
+    Enim veritatis ipsum soluta sed quo saepe non doloribus quisquam, corrupti
+    animi earum delectus culpa ducimus consectetur fuga accusamus itaque. Nam
+    quas beatae sint quos. Ex facere consequuntur culpa optio?
+  </p>
+  <p>
+    Voluptas repudiandae fuga dignissimos aperiam perferendis repellat quisquam
+    praesentium dolorum! Tenetur aut minus animi impedit perspiciatis maiores
+    ullam autem nesciunt magni incidunt! Dignissimos dolores necessitatibus
+    ipsam facilis natus magnam quae?
+  </p>
+  <p>
+    Suscipit vel nostrum recusandae dolore quisquam dolorum, officia ipsa error
+    quas modi, nihil ea velit, saepe necessitatibus ad! Id molestiae rerum
+    alias, minima labore ratione natus eaque earum corrupti ullam!
+  </p>
 </template>
 
 <script>
@@ -35,18 +161,9 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   line-height: 1.6;
-  color: #dad8dd;
-  /* background-color: #18132c; */
-}
-.navbar__list {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  padding: 2rem 0;
-}
-
-.navbar__link {
-  font-size: 3rem;
+  font-size: 1.6rem;
+  color: #e5e3e9;
+  text-align: center;
+  background-color: #2f3e46;
 }
 </style>
