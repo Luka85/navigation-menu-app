@@ -4,6 +4,10 @@
       <ul class="navbar__list">
         <li class="navbar__item" @click="showHide = index">
           <div class="navbar__title">Products</div>
+          <Megamenu
+            :subItemsProducts="subItemsProducts"
+            v-show="showHide === index"
+          ></Megamenu>
         </li>
         <li
           class="navbar__item"
@@ -27,65 +31,12 @@ export default {
     Dropdown,
     Megamenu,
   },
-  props: {
-    category: {
-      type: String,
-    },
-  },
 
   data() {
     return {
       showHide: null,
       isVisible: false,
       services: [
-        // {
-        //   title: "Products",
-        //   link: "#",
-
-        //   subItems: [
-        //     {
-        //       name: "Product1",
-        //       link: "#",
-        //     },
-        //     {
-        //       name: "Product2",
-        //       link: "#",
-        //     },
-        //     {
-        //       name: "Product3",
-        //       link: "#",
-        //     },
-        //     {
-        //       name: "Product4",
-        //       link: "#",
-        //     },
-        //     {
-        //       name: "Product5",
-        //       link: "#",
-        //     },
-        //     {
-        //       name: "Product6",
-        //       link: "#",
-        //     },
-        //     {
-        //       name: "Product7",
-        //       link: "#",
-        //     },
-        //     {
-        //       name: "Product8",
-        //       link: "#",
-        //     },
-        //     {
-        //       name: "Product9",
-        //       link: "#",
-        //     },
-
-        //     {
-        //       name: "Product10",
-        //       link: "#",
-        //     },
-        //   ],
-        // },
         {
           title: "Resources",
           link: "#",
@@ -142,6 +93,59 @@ export default {
               link: "#",
             },
           ],
+        },
+      ],
+      subItemsProducts: [
+        {
+          name: "Product1",
+          link: "#",
+          src: "",
+        },
+        {
+          name: "Product2",
+          link: "#",
+          src: "../assets/imani-bahati-LxVxPA1LOVM-unsplash (1).jpg",
+        },
+        {
+          name: "Product3",
+          link: "#",
+          src: "../assets/imani-bahati-LxVxPA1LOVM-unsplash (1).jpg",
+        },
+        {
+          name: "Product4",
+          link: "#",
+          src: "../assets/imani-bahati-LxVxPA1LOVM-unsplash (1).jpg",
+        },
+        {
+          name: "Product5",
+          link: "#",
+          src: "../assets/imani-bahati-LxVxPA1LOVM-unsplash (1).jpg",
+        },
+        {
+          name: "Product6",
+          link: "#",
+          src: "../assets/imani-bahati-LxVxPA1LOVM-unsplash (1).jpg",
+        },
+        {
+          name: "Product7",
+          link: "#",
+          src: "../assets/imani-bahati-LxVxPA1LOVM-unsplash (1).jpg",
+        },
+        {
+          name: "Product8",
+          link: "#",
+          src: "../assets/imani-bahati-LxVxPA1LOVM-unsplash (1).jpg",
+        },
+        {
+          name: "Product9",
+          link: "#",
+          src: "../assets/imani-bahati-LxVxPA1LOVM-unsplash (1).jpg",
+        },
+
+        {
+          name: "Product10",
+          link: "#",
+          src: "../assets/imani-bahati-LxVxPA1LOVM-unsplash (1).jpg",
         },
       ],
     };
