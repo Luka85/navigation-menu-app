@@ -21,9 +21,11 @@
 
 <script>
 import Dropdown from "./Dropdown.vue";
+import Megamenu from "./Megamenu.vue";
 export default {
   components: {
     Dropdown,
+    Megamenu,
   },
   props: {
     category: {
@@ -157,7 +159,7 @@ export default {
   width: 100%;
   height: 7rem;
   position: fixed;
-  background-color: #588288d2;
+  background-color: #588288;
   /* box-shadow: 0px 0px 20px 0px rgba(97, 143, 150, 0.233); */
 }
 
@@ -169,7 +171,7 @@ export default {
 .navbar__item {
   width: 100%;
   list-style-type: none;
-  padding: 2rem;
+  padding: 2rem 4rem;
 }
 
 .navbar__title {

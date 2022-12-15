@@ -1,6 +1,6 @@
 <template>
   <ul class="dropdown">
-    <li class="dropdown__item" @click="toggleDropMenu">
+    <li class="dropdown__item">
       {{ item.title }}
     </li>
     <!-- {{
@@ -16,6 +16,17 @@
     </li>
   </ul>
 </template>
-<script></script>
+<script>
+export default {
+  props: {
+    item: {
+      type: Object,
+    },
+  },
+  data() {
+    return {};
+  },
+};
+</script>
 
 <style></style>

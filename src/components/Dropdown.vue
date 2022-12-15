@@ -29,8 +29,7 @@ export default {
 </script>
 <style>
 .dropdown {
-  z-index: 1;
-  background-color: #588288d2;
+  background-color: #588288;
   list-style-type: none;
   margin-top: 2.2rem;
   padding: 2rem 3rem;
@@ -38,7 +37,7 @@ export default {
   /* box-shadow: 0px 0px 20px 0px rgba(97, 143, 150, 0.192); */
 }
 
-.dropdown__subitem:not(:last-child) {
+.dropdown__subitem {
   margin-bottom: 1.3rem;
 }
 
