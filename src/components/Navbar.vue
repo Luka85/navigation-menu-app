@@ -26,7 +26,7 @@
     </nav>
   </header>
 </template>
-<!-- v-show="showHide === (currentIndex = index)" -->
+
 <script>
 import Dropdown from "./Dropdown.vue";
 import Megamenu from "./Megamenu.vue";
@@ -38,7 +38,6 @@ export default {
 
   data() {
     return {
-      i: null,
       isVisible: null,
       services: [
         {
@@ -155,9 +154,6 @@ export default {
     };
   },
   methods: {
-    // toggleDropMenu() {
-    //   this.isVisible = !this.isVisible;
-    // },
     toggleDropMenu(id) {
       if (this.isVisible === id) {
         this.isVisible = null;
