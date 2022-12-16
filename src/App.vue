@@ -693,9 +693,42 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   line-height: 1.6;
-  font-size: 1.6rem;
+  font-size: 2rem;
   color: #e5e3e9;
   text-align: center;
   background-color: #2f3e46;
+}
+p {
+  font-size: 1.5rem;
+  padding: 0 10rem;
+  text-align: start;
+}
+
+@media (max-width: 1350px) {
+  html {
+    font-size: 60%;
+  }
+}
+@media (max-width: 1000px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 700px) {
+  html {
+    font-size: 48%;
+  }
+  p {
+    padding: 0 7rem;
+  }
+}
+@media (max-width: 600px) {
+  html {
+    font-size: 44%;
+  }
+  p {
+    padding: 0 4rem;
+  }
 }
 </style>

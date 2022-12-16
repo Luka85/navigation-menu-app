@@ -13,9 +13,10 @@
           class="navbar__item"
           v-for="(service, index) in services"
           :key="index"
-          @click="showHide = index"
         >
-          <div class="navbar__title">{{ service.title }}</div>
+          <div class="navbar__title" @click="showHide = index">
+            {{ service.title }}
+          </div>
           <Dropdown :item="service" v-show="showHide === index"> </Dropdown>
         </li>
       </ul>
@@ -97,55 +98,55 @@ export default {
       ],
       subItemsProducts: [
         {
-          name: "Product1",
+          name: "Product",
           link: "#",
-          src: "",
+          src: "https://bit.ly/3YE8BLs",
         },
         {
-          name: "Product2",
+          name: "Product",
           link: "#",
-          src: "../assets/imani-bahati-LxVxPA1LOVM-unsplash (1).jpg",
+          src: "https://bit.ly/3YE8BLs",
         },
         {
-          name: "Product3",
+          name: "Product",
           link: "#",
-          src: "../assets/imani-bahati-LxVxPA1LOVM-unsplash (1).jpg",
+          src: "https://bit.ly/3YE8BLs",
         },
         {
-          name: "Product4",
+          name: "Product",
           link: "#",
-          src: "../assets/imani-bahati-LxVxPA1LOVM-unsplash (1).jpg",
+          src: "https://bit.ly/3YE8BLs",
         },
         {
-          name: "Product5",
+          name: "Product",
           link: "#",
-          src: "../assets/imani-bahati-LxVxPA1LOVM-unsplash (1).jpg",
+          src: "https://bit.ly/3YE8BLs",
         },
         {
-          name: "Product6",
+          name: "Product",
           link: "#",
-          src: "../assets/imani-bahati-LxVxPA1LOVM-unsplash (1).jpg",
+          src: "https://bit.ly/3YE8BLs",
         },
         {
-          name: "Product7",
+          name: "Product",
           link: "#",
-          src: "../assets/imani-bahati-LxVxPA1LOVM-unsplash (1).jpg",
+          src: "https://bit.ly/3YE8BLs",
         },
         {
-          name: "Product8",
+          name: "Product",
           link: "#",
-          src: "../assets/imani-bahati-LxVxPA1LOVM-unsplash (1).jpg",
+          src: "https://bit.ly/3YE8BLs",
         },
         {
-          name: "Product9",
+          name: "Product",
           link: "#",
-          src: "../assets/imani-bahati-LxVxPA1LOVM-unsplash (1).jpg",
+          src: "https://bit.ly/3YE8BLs",
         },
 
         {
           name: "Product10",
           link: "#",
-          src: "../assets/imani-bahati-LxVxPA1LOVM-unsplash (1).jpg",
+          src: "https://bit.ly/3YE8BLs",
         },
       ],
     };
@@ -161,7 +162,7 @@ export default {
 <style>
 .header {
   width: 100%;
-  height: 7rem;
+  height: 7.5rem;
   position: fixed;
   background-color: #588288;
   /* box-shadow: 0px 0px 20px 0px rgba(97, 143, 150, 0.233); */
@@ -173,9 +174,10 @@ export default {
   align-items: flex-start;
 }
 .navbar__item {
-  width: 100%;
+  background-color: #588288;
+  width: 20%;
   list-style-type: none;
-  padding: 2rem 4rem;
+  padding: 2rem;
 }
 
 .navbar__title {
@@ -188,5 +190,22 @@ export default {
 .navbar__title:active {
   padding: 0 1rem;
   border-bottom: 2px solid #cad2c5;
+}
+
+@media (max-width: 1000px) {
+  .navbar__item {
+    width: 100%;
+  }
+  .header {
+    height: 6rem;
+  }
+}
+@media (max-width: 500px) {
+  .navbar__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
 }
 </style>
