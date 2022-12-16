@@ -17,12 +17,11 @@ export default {
   },
 };
 </script>
+
 <style>
 .dropdown {
   list-style-type: none;
   padding: 2rem 0 0.5rem 0;
-  border-radius: 0 0 0.5rem 0.5rem;
-  /* box-shadow: 0px 0px 20px 0px rgba(97, 143, 150, 0.192); */
 }
 
 .dropdown__subitem:not(:last-child) {
@@ -51,11 +50,4 @@ export default {
   padding-bottom: 0.3rem;
   border-bottom: 2px solid #cad2c5;
 }
-
-/* @media (max-width: 850px) {
-  .dropdown__link:visited,
-  .dropdown__link:link {
-    font-size: 1.3rem;
-  }
-} */
 </style>

@@ -2,28 +2,31 @@
   <header class="header">
     <nav class="navbar">
       <ul class="navbar__list">
-        <li class="navbar__item" @click="showHide = index">
-          <div class="navbar__title">Products</div>
+        <li class="navbar__item">
+          <div class="navbar__title" @click="toggleDropMenu(index)">
+            Products
+          </div>
           <Megamenu
             :subItemsProducts="subItemsProducts"
-            v-show="showHide === index"
+            v-show="isVisible === index"
           ></Megamenu>
         </li>
         <li
           class="navbar__item"
           v-for="(service, index) in services"
           :key="index"
+          @click="toggleDropMenu(index)"
         >
-          <div class="navbar__title" @click="showHide = index">
+          <div class="navbar__title">
             {{ service.title }}
           </div>
-          <Dropdown :item="service" v-show="showHide === index"> </Dropdown>
+          <Dropdown :item="service" v-show="isVisible === index"> </Dropdown>
         </li>
       </ul>
     </nav>
   </header>
 </template>
-
+<!-- v-show="showHide === (currentIndex = index)" -->
 <script>
 import Dropdown from "./Dropdown.vue";
 import Megamenu from "./Megamenu.vue";
@@ -35,8 +38,8 @@ export default {
 
   data() {
     return {
-      showHide: null,
-      isVisible: false,
+      i: null,
+      isVisible: null,
       services: [
         {
           title: "Resources",
@@ -152,8 +155,15 @@ export default {
     };
   },
   methods: {
-    toggleDropMenu(event) {
-      this.isVisible = !event.target.isVisible;
+    // toggleDropMenu() {
+    //   this.isVisible = !this.isVisible;
+    // },
+    toggleDropMenu(id) {
+      if (this.isVisible === id) {
+        this.isVisible = null;
+      } else {
+        this.isVisible = id;
+      }
     },
   },
 };
@@ -165,7 +175,6 @@ export default {
   height: 7.5rem;
   position: fixed;
   background-color: #588288;
-  /* box-shadow: 0px 0px 20px 0px rgba(97, 143, 150, 0.233); */
 }
 
 .navbar__list {
@@ -178,6 +187,7 @@ export default {
   width: 20%;
   list-style-type: none;
   padding: 2rem;
+  border-radius: 0 0 0.5rem 0.5rem;
 }
 
 .navbar__title {
@@ -190,6 +200,9 @@ export default {
 .navbar__title:active {
   padding: 0 1rem;
   border-bottom: 2px solid #cad2c5;
+}
+.hidden {
+  display: none;
 }
 
 @media (max-width: 1000px) {
