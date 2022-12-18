@@ -1,7 +1,5 @@
 <template>
   <ul class="megamenu">
-    <!-- <i class="fa-solid fa-chevron-left fa-2x megamenu__slider--left"></i>
-    <i class="fa-solid fa-chevron-right fa-2x megamenu__slider--right"></i> -->
     <div class="megamenu-thumbnail__container">
       <figure
         v-for="(product, index) in subItemsProducts"
@@ -49,17 +47,7 @@ export default {
   transform: translate(-50%);
   width: 90%;
   max-height: 85vh;
-  /* display: grid; */
-  /* grid-template-columns: repeat(4, minmax(20rem, 1fr));
-  grid-template-rows: repeat(2, 1fr); */
-  /* grid-gap: 3rem; */
-  /* justify-content: center; */
-  /* display: flex;
-  flex-direction: column;
-  flex-wrap: wrap; */
   padding: 0 4rem;
-
-  /* overflow: hidden; */
 }
 
 .megamenu-thumbnail__container {
